@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin: 0; padding: 0; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif" }
+
+#header{width: 100%; height: 60px; background: #3f5267 }
+
+#logo{	width: 20%;	height: 60px; float: left }
+#logo h2{text-align: center; line-height: 60px}
+#logo h2 a{text-decoration: none; color: #74889e; text-shadow: 3px 3px 3px #000}
+
+#title{	width: 60%;	height: 60px; float: left }
+#title h2{color: #fff; text-align: center; text-shadow: 3px 3px 3px #000; line-height: 60px }
+
+#link{  width: 20%;	height: 60px; float: left }
+#link h3{text-align: center; line-height: 60px}
+#link h3 a{text-decoration: none; color: #fff; display: block}
+#link h3:hover{background: #74889e}
+
+
+#bodyleft{width: 18%;height: 690px;background: #3f5267; float: left; overflow-y: auto }
+#bodyleft h3{margin-bottom: 2%; color: #fff; text-align: center; font-size: 12px; background: #74889e; height: 30px; line-height: 30px; font-weight: bold}
+#bodyleft ul{list-style-type: none }
+#bodyleft ul li{transition: all 0.3s; width: 100%; height: 30px; line-height: 30px; padding-left: 5%; box-sizing: border-box}
+#bodyleft ul li a i{width: 10%}
+#bodyleft ul li a{transition: all 0.3s; display: block; text-decoration: none; color: #fff; font-size: 12px; text-shadow: 2px 2px 2px #000; font-weight: bold}
+#bodyleft ul li:hover{background: #fff}
+#bodyleft ul li:hover a{color: #3f5267; padding-left: 5%; box-sizing: border-box; text-shadow: none}
+
+
+#bodyright{width: 82%;height: 690px;background: #fff; float: left; overflow-y: auto }
+#bodyright h3{margin-bottom: 2%; color: #fff; text-align: center; font-size: 12px; background: #74889e; height: 30px; line-height: 30px; font-weight: normal }
+
+
+#add{width: 100%; padding: 2%; box-sizing: border-box }
+#add details{width: 60%; margin: auto }
+#add details summary{cursor: pointer; text-align: center; outline: none; width: 100%; height: 30px; line-height: 30px; color: #3f5267; border: 1px solid #3f5267; font-size: 12px}
+#add details form{background: #74889e; padding: 3%; box-sizing: border-box}
+#add details form input{font-size: 12px; margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 3%; box-sizing: border-box }
+#add details form select{font-size: 12px; margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 3%; box-sizing: border-box }
+#add details form textarea{font-size: 12px; margin-bottom: 2%; width: 100%; height: 100px; outline: none; padding: 3%; box-sizing: border-box }
+#add details form button{color: #fff; width: 40%; height: 30px; font-size: 12px; background: none; outline: none; border: 1px solid #fff}
+#add details form button:hover{cursor: pointer; background: #fff; color: #3f5267}
+
+
+#FAQs details summary{cursor: pointer; text-align: left; outline: none; width: 100%; height: 30px; line-height: 30px; color: #3f5267; border: 1px solid #3f5267; font-size: 12px;  background: #D3CBCC; padding-left: 3% }
+
+
+#add table{width: 60.2%; margin: auto; border: 1px solid #74889e; margin-top: 10px}
+#add table tr th{height: 35px;background: #74889e; color: #fff; font-size: 12px; text-align: left; padding-left: 2%; box-sizing: border-box }
+#add table tr td{color: #000; height: 30px; padding-left: 2%; box-sizing: border-box; font-size: 12px }
+
+#edit_form{width: 50%; padding: 2%; box-sizing: border-box; margin: auto }
+#edit_form input{font-size: 12px; margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 3%; box-sizing: border-box }
+#edit_form select{font-size: 12px; margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 3%; box-sizing: border-box }
+#edit_form button{cursor:pointer; color: #3f5267; width: 40%; height: 30px; font-size: 12px; background: none; outline: none; border: 1px solid #3f5267}
+#edit_form button:hover{color: #fff; background: #3f5267}
+
+
+#con{width: 100% }
+#con form table{width: 70%; padding: 5%; box-sizing: border-box; margin: auto }
+#con form table tr td{width: 50%; height: 35px; font-size: 12px }
+#con form table tr td input{border: 1px solid #3f5267; border-radius: 3px; width: 100%; height: 25px; outline: none; padding-left: 5%}
+#con form button{cursor: pointer; width: 20%; height: 35px; border: 1px solid #3f5267; background: none; outline: none }
+#con form button:hover{background: #3f5267; color: #fff }
+
+
+#about{width: 60%; margin: auto; padding: 5%; box-sizing: border-box }
+#about textarea{width: 100%; height: 150px; outline: none; padding: 5%; box-sizing: border-box }
+#about form button{float: right; cursor: pointer; width: 20%; height: 35px; border: 1px solid #3f5267; background: none; outline: none }
+#about form button:hover{background: #3f5267; color: #fff }
+
+
+#c_add h2{width:100%; height: 60px;line-height: 60px;padding: 0% 2% 0% 2%;box-sizing: border-box;color: #3f5267;font-weight: normal;font-size: 20px}
+
+#c_edit_input{background: #e6e6e6; margin: 0% 2% 0% 2%;border-radius: 15px; width: 96%;height: 35px;border: 1px solid #3f5267; padding-left: 2%; box-sizing: border-box}
+#c_edit_input input{float: left;border-width:0px;  width: 90%; height: 35px; background: none;outline: none; border-width: 0px;margin-top: 0.2%}
+
+#c_add form button{width: 20%;height: 35px;background: none;border: 1px solid #3f5267; color: #3f5267;outline: none;border-radius: 15px;cursor: pointer; transition: all 0.3s ease-in-out;float: center;margin-right: 2%}
+#c_add form button{width: 20%;height: 35px;background: none;border: 1px solid #3f5267; color: #3f5267;outline: none;border-radius: 15px;cursor: pointer; transition: all 0.3s ease-in-out;float: center;margin-right: 2%;margin-top: 2%}
+#c_add form button:hover{background: #3f5267;color: #fff;border-radius: 0px}
+
+#c_edit_input2 textarea{width: 95%; height: 100px; none; outline: none; border-width: 0px; background: #e6e6e6; border-radius: 3px; padding: 2% 2% 2% 2%;margin-left: 2%; box-sizing: border-box; resize: none;border: 1px solid #3f5267; }
+#c_edit_input2 textarea::-webkit-input-placeholder{color: #3f5267 !important}
+	
+
+#c_edit_l{width: 18%; height: 705px; position: fixed; background: #74889e; float: left }
+#c_edit_l h1{font-weight: normal;color: #3f5267;text-align: center;text-shadow: 1px 1px 1px #000; font-size: 20px; width: 100%; height: 50px; line-height: 50px}
+#c_edit_l ul{list-style-type: none; margin-top: 2%; margin-bottom: 2%}
+#c_edit_l ul li{width: 100%; height: 60px; line-height: 60px; transition: all 0.6s ease-in-out}
+#c_edit_l ul li a{text-decoration: none;color: #fff; text-shadow: 1px 1px 1px #000;padding-left: 10%;font-size: 14px; box-sizing: border-box;display: block; font-weight: bold; transition: all 0.6s ease-in-out}
+#c_edit_l ul li a i{width: 20px}
+#c_edit_l ul li:hover{background: #fff}
+#c_edit_l ul li:hover a{color: #3f5267; text-shadow: none;padding-left: 15%}
+#c_edit_l button{position: absolute;bottom: 5%;left: 10%; height: 45px;width: 80%;border-width: 0px; background: #fff;color: #3f5267;cursor: pointer;display: block; transition: all 0.6s ease-in-out}
+#c_edit_l button:hover{background: #3f5267;color: #fff}
+
+
+#c_edit_r{height: 655px; width: 80%; background: #fff; padding: 0% 2% 2% 2% ; box-sizing: border-box; float: left; margin-left: 20% }
+#c_edit_r h2{width:100%; height: 60px;line-height: 60px;padding: 0% 2% 0% 2%;box-sizing: border-box;color: #3f5267;font-weight: normal;font-size: 20px}
+#c_edit_r form img{width: 200px; height: 200px;margin: 0% 2% 0% 2%; transition: all 0.3s ease-in-out;float: left}
+#c_edit_r form img:hover{border-radius: 100%}
+#c_edit_r form h4{color: #74889e; font-size: 14px; line-height: 22px;width: 70%;float: left}
+#c_img{background: #e6e6e6; margin: 2% 0% 2% 0%;border-radius: 15px; width: 68%;height: 35px;border: 1px solid #3f5267; padding-left: 2%; box-sizing: border-box;float: left;padding-top: 0.4%}
+#c_edit_r form button{width: 20%;height: 35px;background: none;border: 1px solid #3f5267; color: #3f5267;outline: none;border-radius: 15px;cursor: pointer; transition: all 0.3s ease-in-out;float: right;margin-right: 2%}
+#c_edit_r form button:hover{background: #3f5267;color: #fff;border-radius: 0px}
+
+
+#c_edit_input{background: #e6e6e6; margin: 0% 2% 0% 2%;border-radius: 15px; width: 96%;height: 35px;border: 1px solid #3f5267; padding-left: 2%; box-sizing: border-box}
+#c_edit_input input{float: left;border-width:0px;  width: 90%; height: 35px; background: none;outline: none; border-width: 0px}
+
+
+
+#wrap{margin-top: 90px }
+#crumb{width: 96%; height: 35px; line-height: 35px; padding-left: 2%; padding-right: 2%; box-sizing: border-box; background: #fff; margin: 0% 2% 1% 2%; box-shadow: 0px 0px 20px #ccc }
+#crumb span{margin-right: 0.5%; color: #74889e; font-size: 14px }
+#crumb span a{text-decoration: none; color: #06f; margin-left: 0.5%}
+#crumb span a:hover{text-decoration: underline }
+#crumb b{font-weight: normal; color: #74889e; margin-right: 0.5%}
+#cart_f{width: 50% }
+#cart_s{width: 18% }
+#cart_t{width: 11% }
+#cart_e{width: 10% }
+
+#dash{width: 100%; padding: 2%; box-sizing: border-box}
+#dash h1{color: #3f5267; font-weight: normal; width: 40%; float: left}
+#dash form{margin-bottom: 1%; width: 60%; float: right}
+#c_form{height: 35px; width: 100%; background: #3f5267; border-radius: 15px; color: #3f5267  }
+#c_form input{width: 80%; height: 35px; background: #fff; outline: none; border-width: 0px; padding-left: 3%; box-sizing: border-box; border: 1px solid #3f5267; border-top-left-radius: 15px; border-bottom-left-radius: 15px}
+#c_form button{width: 18%; height: 35px; background: none; outline: none; border-width: 0px; padding-left: 3%; box-sizing: border-box; color: #fff; cursor: pointer}
+
+#dash table{width: 100%; margin-top: 2%; margin-bottom: 2%; background: #fff}
+#dash table tr th{background: #3f5267; color: #fff;text-align: left; height: 35px; font-weight: normal; font-size: 14px}
+#dash table tr td{height: 60px; text-align: left;padding: 2%; box-sizing: border-box;color: #74889e; font-feature-settings: 14px;border-bottom: 1px solid rgba(0,0,0,0.2)}
+#dash table tr td span a{color: #74889e}
+#dash table tr td span a:hover{color: #06f}
+#dash table tr td a{text-decoration: none;color: #06f}
+#dash table tr td a:hover{text-decoration: underline}
+#dash table tr td img{width: 100px; height: 60px}
+#dash table tr th:nth-child(1){padding-left: 2%; width: 10%}
+#dash table tr th:nth-child(2){width: 40% }
+#dash table tr th:nth-child(3){width: 20%;text-align: left;padding-left:2%}
+#dash table tr th:nth-child(4){width: 10%;text-align: left;padding-left:2%}
+#dash table tr th:nth-child(5){width: 20%;text-align: left;padding-left:2%}
+#dash table tr td:nth-child(1){padding-left: 2%; width: 10%}
+#dash table tr td:nth-child(2){vertical-align: top;color: #3f5267; font-size: 14px; width: 40%; padding-left: 0% }
+#dash table tr td:nth-child(3){width: 20%}
+#dash table tr td:nth-child(4){width: 10%}
+#dash table tr td:nth-child(5){width: 20%}
+
+
+
+
+
+
+
